@@ -1,4 +1,4 @@
-const PI = Math.PI;
+const PI = Math.pi;
 exports.area = function (r) {
     return PI * r * r;
 }
