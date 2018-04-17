@@ -6,5 +6,7 @@ console.log('Circumference of a circle = ' + circle.circum(3));
 console.log('PI = ' + circle.PI);
 
 const square = require('./square');
-let mysquare = square(4);
+let mysquare = square(5);
+mysquare.width = 10;
 console.log('Area of a square = ' + mysquare.area());
+console.log('Circumference of a square = ' + mysquare.circum());
