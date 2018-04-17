@@ -1,5 +1,7 @@
 let nPort = 8000;
-let sHost = 'localhost'
+let sHost = 'localhost';
 const myServer = require('./myServer');
 
-myServer.start
+myServer.start(nPort, sHost);
+
+//myServer.start;
